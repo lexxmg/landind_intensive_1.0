@@ -1,0 +1,58 @@
+.header {
+
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 70px 0;
+}
+
+.header__nav {
+
+}
+
+.nav {
+
+}
+
+.nav__list {
+  display: flex;
+
+  font-size: 20px;
+}
+
+.list {
+
+}
+
+.list__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.list__link {
+
+}
+
+.top__callback {
+  display: flex;
+  align-items: center;
+}
+
+.top__address {
+  margin-right: 36px;
+
+  font-style: normal;
+
+  font-weight: 400;
+}
+
+.top__tel {
+  font-size: 30px;
+}
+
+.top__button {
+
+}
