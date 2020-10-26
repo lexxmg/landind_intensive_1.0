@@ -32,6 +32,39 @@
   margin-right: 50px;
 }
 
+.list__item {
+  position: relative;
+}
+
+.list__item::after, .list__item::before {
+  content: "";
+
+  position: absolute;
+  bottom: -4px;
+
+  display: block;
+  width: 0;
+  height: 2px;
+
+  background-color: tomato;
+
+  transition: width 0.3s;
+}
+
+.list__item::after {
+  left: 50%;
+}
+
+.list__item::before {
+  right: 50%;
+}
+
+.list__item:hover::after, .list__item:hover::before {
+  width: 50%;
+
+  transition: width 0.3s;
+}
+
 .list__link {
 
 }
