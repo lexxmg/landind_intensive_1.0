@@ -15,9 +15,9 @@ body {
   min-width: 320px;               /* box-model */
   margin: 0;
 
-  background-color; #f9f9f9;       /* Визаулизация */
+  background-color: #e8e8e8;       /* Визаулизация */
 
-  font-family: Аrial, sans-serif;  /* Типография */
+  font-family: Times New Roman, sans-serif;  /* Типография */
   font-size: 16px;
   line-height: 1.429;
   color: black;
@@ -62,7 +62,7 @@ h1, h2, h3, p, figure {
 }
 
 .fixed-container {
-  max-width: 1650px;
+  max-width: 845px;
   margin: 0 auto;
 }
 

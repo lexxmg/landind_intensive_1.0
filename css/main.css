@@ -1,0 +1,42 @@
+.content {
+
+}
+
+.container-top {
+  margin-top: 40px;
+  padding: 0 60px;
+}
+
+.container-top__category {
+  display: block;
+
+  letter-spacing: 3px;
+  line-height: 40px;
+  font-size: 14px;
+  font-family: "Arial";
+
+  color: #273d46;
+
+  text-align: center;
+}
+
+.container-top__title {
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 400;
+
+  text-align: center;
+}
+
+.content-img {
+  margin-top: 80px;
+  padding: 5px;
+
+  background-color: #273d46;
+}
+
+.content-img__image {
+  display: block;
+
+  width: 100%;
+}
