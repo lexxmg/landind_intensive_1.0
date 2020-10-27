@@ -33,7 +33,7 @@
   box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 5px #3627FF;
 }
 
-.btn:active {
+.btn:active.btn:hover {
   border-color: #3627FF;
 
   background-color: transparent;
