@@ -15,9 +15,10 @@ body {
   min-width: 320px;               /* box-model */
   margin: 0;
 
-  background-color: #e8e8e8;       /* Визаулизация */
+        /* Визаулизация */
+  background: #e8e8e8 url(../img/bg.png) center 130px no-repeat;
 
-  font-family: Times New Roman, sans-serif;  /* Типография */
+  font-family: "Times New Roman", sans-serif;  /* Типография */
   font-size: 16px;
   line-height: 1.429;
   color: black;
@@ -62,7 +63,7 @@ h1, h2, h3, p, figure {
 }
 
 .fixed-container {
-  max-width: 845px;
+  max-width: 840px;
   margin: 0 auto;
 }
 

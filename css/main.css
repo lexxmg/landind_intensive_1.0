@@ -1,42 +1,153 @@
 .content {
-
+  padding: 125px 0 136px;
 }
 
 .container-top {
-  margin-top: 40px;
-  padding: 0 60px;
+  padding: 0 45px;
+
+  text-align: center;
 }
 
 .container-top__category {
   display: block;
 
-  letter-spacing: 3px;
-  line-height: 40px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
-  font-family: "Arial";
+  letter-spacing: 3px;
 
-  color: #273d46;
-
-  text-align: center;
+  color: #939ca1;
 }
 
 .container-top__title {
+  margin-top: 20px;
+
   font-size: 36px;
   line-height: 50px;
   font-weight: 400;
-
-  text-align: center;
 }
 
-.content-img {
-  margin-top: 80px;
-  padding: 5px;
+.content-image {
+  margin-top: 50px;
+  padding: 10px;
 
-  background-color: #273d46;
+  background-color: #fff;
+
+  box-shadow: 0 15px 65px rgba(15, 16, 16, .15);
 }
 
-.content-img__image {
+.content-img__img {
   display: block;
 
   width: 100%;
+
+  border: 3px solid #273d46;
+}
+
+.content-bottom {
+  margin-top: 90px;
+  padding: 0 45px;
+}
+
+.content-bottom__text {
+
+}
+
+.container-bottom__p {
+  margin-bottom: 40px;
+
+  font-size: 24px;
+  line-height: 40px;
+
+  color: #939ca1;
+}
+
+.container-bottom__p:last-child {
+  margin-bottom: 0;
+}
+
+.content-bottom__info {
+  margin-top: 48px;
+}
+
+.bottom-info {
+
+}
+
+.bottom-info__list {
+
+}
+
+.info-list {
+
+}
+
+.info-list__item {
+  margin-bottom: 6px;
+  padding-left: 40px;
+
+  background-image: url(../img/icons/check.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  font-size: 20px;
+}
+
+.info-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.info-list__item:nth-child(1) {
+  color: #273d46;
+
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.info-list__item:nth-child(2) {
+  color: #80b7b3;
+
+  font-style: italic;
+}
+
+.info-list__item:nth-child(3) {
+  font-weight: 700;
+
+  color: #273d46;
+}
+
+.info-list__item:nth-child(4) {
+  text-decoration: line-through;
+
+  color: #b5bbbe;
+}
+
+.bottom-info__btn {
+  margin-top: 59px;
+}
+
+.btn {
+  width: 200px;
+  height: 45px;
+
+  border: 1px solid #80b7b3;
+  border-radius: 20px;
+
+  background-color: #80b7b3;
+
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+
+  color: white;
+}
+
+.btn__item {
+  display: inline-block;
+  width: 40px;
+  height: 10px;
+
+  background-image: url(../img/icons/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
